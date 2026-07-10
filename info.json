@@ -1,12 +1,17 @@
 {
-  "name": "###NAME###",
-  "title": "###TITLE###",
-  "description": "###DESCRIPTION###",
+  "name": "frozen-food-lignumis",
+  "title": "Frozen Food for Lignumis",
+  "description": "Adds frozen food support to Lignumis.",
   "author": "QuingKhaos",
   "homepage": "",
   "version": "1.0.0",
   "factorio_version": "2.0",
   "dependencies": [
-    "base >= 2.0.0"
+    "base >= 2.0.77",
+
+    "FrozenFood >= 1.2.2",
+    "FrozenFoodLib >= 1.0.0",
+
+    "lignumis >= 1.10.0"
   ]
 }
