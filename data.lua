@@ -14,3 +14,18 @@ FrozenFoodLib.create_frozen_food {
   },
   unlock = "s6x-freeze-preservation-living"
 }
+
+FrozenFoodLib.create_frozen_food {
+  name = "gold-bacteria",
+  icon = data.raw["item"]["gold-bacteria"].icon,
+  order = "dd",
+  stack_size = 1000,
+  weight = 1.5,
+  default_import_location = "lignumis",
+  spoilage_time = "short",
+  tint = {
+    primary = {r = 250/254, g = 213/254, b = 17/254, a = 1.0},
+    secondary = {r = 197/254, g = 102/254, b = 17/254, a = 1.0},
+  },
+  unlock = "s6x-freeze-preservation-living"
+}
