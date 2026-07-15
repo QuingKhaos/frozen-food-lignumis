@@ -1,17 +1,16 @@
 {
   "name": "frozen-food-lignumis",
   "title": "Frozen Food for Lignumis",
-  "description": "Adds frozen food support to Lignumis.",
+  "description": "[DEPRECATED] Functionality migrated to Frozen Food and More.",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
+    "space-age >= 2.0.77",
 
-    "FrozenFood >= 1.2.2",
-    "FrozenFoodLib >= 1.0.0",
-
-    "lignumis >= 1.10.0"
-  ]
+    "frozen-food-and-more >= 1.0.0"
+  ],
+  "spoiling_required": true
 }
